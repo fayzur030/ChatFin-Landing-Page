@@ -34,7 +34,7 @@ const Navbar = () => {
   ]
 
   return (
-    <div className='lg:max-w-7xl mx-auto mt-2 flex items-center justify-between shadow md:px-4 lg:px-2 relative'>
+    <div className='lg:max-w-7xl mx-auto mt-2 flex items-center justify-between shadow md:px-4 lg:px-2 relative py-3      '>
       {/* logo */}
       <div>
         <Image src={logo} alt='headerLogo' width={100} height={50} />

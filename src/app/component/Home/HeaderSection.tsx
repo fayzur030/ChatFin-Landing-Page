@@ -18,10 +18,10 @@ const HeroSection = () => {
       {/*button */}
 
       <div className='mt-4 flex justify-center items-center gap-4 '>
-        <button className='px-8 py-3 rounded-full border-2 border-[#D1D5DB] font-medium cursor-pointer'>
+        <button className='px-8 py-3 rounded-full border-2 border-[#D1D5DB] font-medium cursor-pointer hover:bg-gray-300'>
           Get started
         </button>
-        <button className='px-8 py-3 rounded-full bg-[#10B981] text-[#E5E7EB] shadow-lg  shadow-green-300 font-medium cursor-pointer '>
+        <button className='px-8 py-3 rounded-full bg-[#10B981] hover:bg-green-700 text-[#E5E7EB] shadow-lg  shadow-green-300 font-medium cursor-pointer '>
           Book a demo
         </button>
       </div>
