@@ -54,7 +54,7 @@ const Works = () => {
         How it works
       </h1>
 
-      <div className='md:mt-8 mt-8 md:py-10 grid grid-cols-1 md:grid-cols-1 lg:gap-12  lg:grid-cols-2 justify-between items-center lg:px-0 md:px-3 px-2'>
+      <div className='md:mt-8 mt-8 md:py-10 grid grid-cols-1 md:grid-cols-2 md:gap-6 lg:gap-12 lg:grid-cols-2 justify-between items-center lg:px-0 md:px-3 px-2'>
         <div className=''>
           {menuItems.map((item) => (
             <button
