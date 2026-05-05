@@ -5,6 +5,7 @@ import Capabilities from './component/Home/Capabilities'
 import Works from './component/Home/Works'
 import CustomersSaying from './component/Home/CustomersSaying'
 import Journey from './component/Home/Journey'
+import Footer from '@/common/Footer'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Works />
       <CustomersSaying />
       <Journey />
+      <Footer />
     </div>
   )
 }
